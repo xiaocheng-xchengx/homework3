@@ -4,7 +4,6 @@
 We have started some of the selectors for you.
 For others we have provided hints on what the selectors should be.
 There are some missing selectors.
-
 Make sure to learn what the starter code does!!
 */
 
@@ -47,11 +46,9 @@ a{
 }
 
 table{
-    text-align: center;
-    position: center;
     border: 2px solid #000000;
-    border-collapse: separate;
-    margin: 0px auto;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 10px;
 }
 
@@ -71,6 +68,7 @@ tbody tr:hover {
   background-color: #7e0830;
   color: #FFFFFF;
   text-transform: uppercase;
+  text-align: center;
   min-width: 125px;
   padding: 10px;
 }
@@ -79,8 +77,13 @@ tbody tr:hover {
   border-right: 2px solid #000000;
 }
 
-td{
+th,td{
   padding: 10px;
+  border-top: 2px solid #000000;
+}
+
+td{
+  text-align: center;
   border-top: 2px solid #000000;
 }
 
@@ -116,4 +119,3 @@ footer{
   bottom: 0;
   position: fixed;
 }
-
