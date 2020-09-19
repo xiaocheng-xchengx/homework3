@@ -14,7 +14,7 @@ body{
   margin: 1.2em;
   font-family: 'Andika', sans-serif;
   background-color: #DDDDDD;
-  background-image: url(../images/Pigeon-background.JPEG);
+  background-image: url(../images/pigeon-background.JPEG);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -59,7 +59,7 @@ table{
     border-radius: 10px;
 }
 
-tr:nth-child(even) {
+tr:nth-child(odd) {
   background-color: #D1D1D1;
 }
 
@@ -72,6 +72,8 @@ tr:hover {
   color: #FFFFFF;
   text-transform: uppercase;
   text-align: center;
+  min-width: 125px;
+  padding: 10px;
 }
 
 .rowhead{
@@ -81,10 +83,6 @@ tr:hover {
 th,td{
   padding: 10px;
   border-top: 2px solid #000000;
-}
-
-th{
-  min-width: 125px;
 }
 
 td{
@@ -108,11 +106,22 @@ thead tr:last-child th:last-child{
   border-radius: 0px 10px 0px 0px;
 }
 
+tbody tr:last-child th:first-child{
+  border-radius: 0px 0px 0px 10px;
+}
+
+/*tbody tr:last-child th:last-child{
+  border-radius: 0px 10px 0px 0px;
+}*/
+
 footer{
   width: 100%;
   background: #000000;
   text-align: center;
   color: #FFFFFF;
   min-height: 75px;
+  left: 0;
+  bottom: 0;
+  position: fixed;
 }
 
