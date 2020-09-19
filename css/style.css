@@ -56,10 +56,6 @@ tbody tr:nth-child(odd){
   background-color: #D1D1D1;
 }
 
-tbody tr:nth-child(even){
-  background: transparent;
-}
-
 tbody tr:hover {
   background-color: rgb(126,8,48,0.25);
 }
