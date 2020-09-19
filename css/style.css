@@ -52,11 +52,15 @@ table{
     border-radius: 10px;
 }
 
-tbody tr:nth-child(odd) td {
+/*tbody tr:nth-child(odd) td {
   background-color: #D1D1D1;
 }
 
 tbody tr:nth-child(odd) th {
+  background-color: #D1D1D1;
+}*/
+
+tbody tr:nth-child(odd){
   background-color: #D1D1D1;
 }
 
