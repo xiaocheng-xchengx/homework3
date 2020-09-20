@@ -52,7 +52,7 @@ table{
     border-radius: 10px;
 }
 
-tbody tr:nth-child(odd) td {
+/*tbody tr:nth-child(odd) td {
   background-color: #D1D1D1;
 }
 
@@ -60,9 +60,18 @@ tbody tr:nth-child(odd) th {
   background-color: #D1D1D1;
 }
 
-tbody tr:nth-child(even) {
+tbody tr:nth-child(even) td{
   background: transparent;
 }
+
+tbody tr:nth-child(even) th{
+  background: transparent;
+}*/
+
+tbody tr:nth-child(even){
+  background-color: #D1D1D1;
+}
+
 
 tbody tr:hover {
   background-color: rgb(126,8,48,0.25);
